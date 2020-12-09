@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+}
+
+.TopBar{
+    background-color: #f4f4f4;
+    margin-left: 0px;
+    width: 100%;
+    height: 34px;    
+    /*line-height: 34px; */
+    /*padding: 0px 30px; */
+    display: flex; 
+   
+}
+.TopBarSelectLeft{
+    padding: 0 20px;
+    height: 34px;
+    width: 150px;   
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap'); 
+.SelectCountries{
+    height: 34px;
+    width: 150px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    background-color: #f4f4f4;
+    font-family: 'PT Sans', sans-serif;/*original*/    
+    /*font-family: Gotham-Medium,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-weight: bold;
+    font-size: 11.4px; 
+}
+.OptionsCountries{
+    font-weight: bold;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap'); 
+.header-ul{
+    display: flex;
+    width: 200%;
+    height: 34px;
+    justify-content: space-between;
+    margin-left: 31.5%;
+    margin-right: 3%; 
+    margin-top: 10px;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11.4px;
+}
+    .mobile-icon{
+    margin: -2px 7px 0 px 0px;
+    height: 14px;  
+    width: 10 px;   
+
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+li{
+    list-style: none;
+}
+
+.logo{
+    margin-left:10px;    
+    margin-top:8px;
+    margin-right: -20px;
+}
+
+.SectionMenuLeft{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.TopMenuLeft{
+    /*margin-top: 5px;*/
+    display: flex;
+    width: 100%;
+    height: 65px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0%;
+    margin-right: 3%; 
+    margin-top: 0px;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11.4px;
+    vertical-align: top;
+}
+
+.TopMenuLeft-ul{
+   display: flex;
+    width: 150%;
+    /*height: 65px;*/
+    /*flex-wrap: wrap;*/
+    justify-content: space-between;
+    /*margin-left: 0%;*/
+    /*margin-right: 3%; */
+    margin-top: 30px;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11.8px;
+    padding: 0px 20px;
+    
+}
+.TopBarRight{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: 30%;
+    padding: 0px 40px; 
+    
+
+
+}
+
+.ThirdBarTop{
+    display: flex;
+    background-color:#000000;
+    height: 34px;
+    width: 150%; 
+    margin-top: 70px;
+    margin-left: -2000px;
+    margin-right: 0px;
+}
+.spanThirdBarTop{
+    font-size: 15px;
+    /*line-height: 33px;*/
+    /*width: auto;  */
+    font-weight: bold;
+    font-size: 11.8px;
+    color:#ffd523; 
+}
+
+
+.anterior{
+    color:#ffffff;
+    src:url(./assets/icons/chevron-left-solid.svg);
+    margin-top: 8px;
+    margin-right: -50px;
+    
+}
+.textThirdBarTop{
+    width: auto;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-left: 58.5%; /*46.5%*/
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.siguiente{
+    color:#ffffff;
+    margin-top: 8px;
+    margin-left: -80px;
+
+}
+.bag{   
+     /*margin-right: -105px;*/ 
+    
+    
+    
+    
+}
+.imgBannerMain{
+    margin-top: -110px;
+    padding:110px 5px 50px;
+}
+.container{
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+h2{
+    font-weight: 400px;
+    text-shadow: none;
+    font-style: normal;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.slidermiddle{
+    height: 300%;
+    width: 80%;
+    /*margin-left:20%;
+    margin-right:0%; */
+    align-items: center;
+    margin-left:12%;
+
+}
+.downloadcatalog{
+    max-width:1500px; /*1580*/
+    padding-top:30px;
+    padding-left:8px;    
+
+}
+.bannercolombia{
+    max-width:1500px; /*1580*/
+    padding-top:30px;
+    padding-left:8px;
+}
+
+.accordion{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding-left: 8px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;  
+    
+} 
+.searchMainRight{
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;    
+}
+
+.gifcard{
+    height: 17px;
+    width: 37px;
+    padding-right: 20px;
+}
+.TopBarRight-ul{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: left;
+
+   
+}
+.divgifcard{
+    margin-top: -20px;
+    
+
+   
+}
+.pfooter{
+    margin-left:15%;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;    
+}
+.divFooter{
+    padding-top: 30px;
+    padding-bottom: 200px;
+    font-size:15px;
+    position: relative;
+    background: #f4f4f4;
+    border: 2px solid #ffd422;
+    border-width: 0 0 10px 0;
+}
